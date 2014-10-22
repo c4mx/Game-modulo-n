@@ -1,0 +1,34 @@
+#game_config form {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#board {
+    position: relative;
+    top: 100px;
+}
+
+#jeu_modulo_n {
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jeu_modulo_n td {
+    background-color: #d4d4d4;
+    border: none;
+    width: 41px;
+    height: 41px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#help {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
