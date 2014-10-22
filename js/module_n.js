@@ -101,9 +101,12 @@ $(document).ready(function(){
             }
 
             var add = 0;
-            var nb1 = mod_number - 2;
-            var nb2 = mod_number - 3;
-
+            if (mod_number == 2) {
+                nb1 = nb2 = 0;
+            } else {
+                nb1 = mod_number - 2;
+                nb2 = mod_number - 3;
+            }
             for (i = 0; i < mod_number; i++) {
                 for (j = 0; j < mod_number; j++) {
                     if (mod_array[i][j] != obj) {
