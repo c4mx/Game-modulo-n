@@ -101,6 +101,7 @@ $(document).ready(function(){
             }
 
             var add = 0;
+            var nb1, nb2;
             if (mod_number == 2) {
                 nb1 = nb2 = 0;
             } else {
